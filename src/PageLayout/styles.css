@@ -1,0 +1,26 @@
+.pagelayout {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-columns: 2fr 8fr;
+  grid-template-areas:
+    "n n"
+    "w c"
+    "s s";
+}
+
+.pagelayout>.north {
+  grid-area: n;
+}
+
+.pagelayout>.west {
+  grid-area: w;
+}
+
+.pagelayout>.center {
+  grid-area: c;
+}
+
+.pagelayout>.south {
+  grid-area: s;
+}
