@@ -1,5 +1,8 @@
 # React Ladder Architecture
 
+> The example is in src/
+>
+
 # Introduction
 
 We often overthink about what architecture we should use in our React applications. The docs says "make reusable components and be organized". But how should we organize our components? How should we structure our codebase?
